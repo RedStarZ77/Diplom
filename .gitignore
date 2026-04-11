@@ -1,0 +1,118 @@
+# ============================================================
+# Gradle
+# ============================================================
+.gradle/
+/build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+.gradletasknamecache
+
+# ============================================================
+# Android build outputs
+# ============================================================
+/captures
+release/
+bin/
+gen/
+out/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# ============================================================
+# Local configuration (machine-specific, contains SDK path)
+# ============================================================
+local.properties
+/local.properties
+
+# ============================================================
+# Signing / keystores — NEVER commit
+# ============================================================
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# ============================================================
+# NDK / native build
+# ============================================================
+.externalNativeBuild/
+.cxx/
+obj/
+
+# ============================================================
+# IntelliJ IDEA / Android Studio
+# ============================================================
+*.iml
+*.iws
+*.ipr
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/modules.xml
+.idea/dictionaries/
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/deploymentTargetDropDown.xml
+.idea/deploymentTargetSelector.xml
+.idea/misc.xml
+
+# ============================================================
+# Other editors
+# ============================================================
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Kotlin
+# ============================================================
+*.kotlin_module
+
+# ============================================================
+# Logs & temporary files
+# ============================================================
+*.log
+*.tmp
+*.bak
+hs_err_pid*
+replay_pid*
+
+# ============================================================
+# Operating system files
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Lint & reports
+# ============================================================
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
