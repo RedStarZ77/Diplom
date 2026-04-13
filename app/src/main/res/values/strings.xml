@@ -1,15 +1,13 @@
 <resources>
-    <string name="app_name">Diplom</string>
-    <string name="title_activity_servers_ok">ServersOk</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
+    <string name="app_name">Диплом</string>
+    <string name="title_activity_servers_ok">Серверы</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="nav_header_title">Диплом</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="nav_header_desc">Заголовок панели навигации</string>
+    <string name="action_settings">Настройки</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="title_activity_servers_new">servers_new</string>
+    <string name="menu_home">Главная</string>
+    <string name="title_activity_servers_new">Серверы</string>
 </resources>

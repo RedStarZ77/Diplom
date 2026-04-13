@@ -50,7 +50,7 @@ public class ShowServer extends AppCompatActivity {
         if (showServer != null){
             id.setText("Имя сервера: " + showServer.getStringExtra("id"));
             ip.setText("IP сервера: " + showServer.getStringExtra("ip"));
-            port.setText("Port сервера: " + showServer.getStringExtra("port"));
+            port.setText("Порт сервера: " + showServer.getStringExtra("port"));
             status.setText("Статус сервера: " + showServer.getStringExtra("status"));
             temp.setText("Температура сервера: " + showServer.getStringExtra("temp"));
             ram.setText("Оперативная память сервера: " + showServer.getStringExtra("ram"));
